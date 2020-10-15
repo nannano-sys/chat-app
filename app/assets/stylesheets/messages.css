@@ -46,8 +46,9 @@
   overflow: scroll;  /* チャットルームが増えたときにスクロールができる */
 }
 
-.name_links{
-  padding: 20px 0px 40px;
+.room_content{
+  flex-direction: column;
+  padding: 20px 0px 40px 0px;
 }
 
 .room_name{
