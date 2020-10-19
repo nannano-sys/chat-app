@@ -6,7 +6,7 @@ class MessagesController < ApplicationController
     @messages = @room.messages.includes(:user)
     
   end
-
+  
   def create
     @room = Room.find(params[:room_id])
     @message = @room.messages.new(message_params)
